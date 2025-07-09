@@ -1,0 +1,57 @@
+.svc-btn {
+  display: flex;
+  align-items: center;
+  height: calc(7 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+  line-height: calc(7 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+  vertical-align: baseline;
+  text-align: center;
+  background-color: var(--ctr-button-background-color, var(--sjs-general-backcolor, var(--background, #fff)));
+  box-shadow: 0px 1px 2px 0px var(--ctr-shadow-small-color, rgba(0, 0, 0, 0.15));
+  border-radius: calc(0.5 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+  cursor: pointer;
+  user-select: none;
+  outline: solid calc(0.25 * (var(--sjs-base-unit, var(--base-unit, 8px)))) transparent;
+}
+.svc-btn .svc-text {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  color: var(--ctr-button-text-color, var(--sjs-primary-backcolor, var(--primary, #19b394)));
+}
+
+.svc-btn:hover {
+  background-color: var(--ctr-button-background-color-hovered, var(--sjs-questionpanel-hovercolor, var(--sjs-general-backcolor-dark, rgb(248, 248, 248))));
+}
+
+.svc-btn:focus {
+  box-shadow: 0 0 0 2px var(--ctr-button-border-color-focused, var(--sjs-primary-backcolor, var(--primary, #19b394)));
+}
+
+.svc-action-button {
+  display: inline-block;
+  padding: calc(0.5 * (var(--sjs-base-unit, var(--base-unit, 8px)))) calc(2 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+  box-sizing: border-box;
+  border-radius: calc(12.5 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+  color: var(--ctr-survey-action-button-text-color-positive, var(--sjs-primary-backcolor, var(--primary, #19b394)));
+  font-weight: 600;
+  font-size: calc(2 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+  line-height: calc(3 * (var(--sjs-base-unit, var(--base-unit, 8px))));
+  border: calc(0.25 * (var(--sjs-base-unit, var(--base-unit, 8px)))) solid transparent;
+}
+.svc-action-button .svc-text {
+  color: var(--ctr-survey-action-button-text-color-positive, var(--sjs-primary-backcolor, var(--primary, #19b394)));
+}
+.svc-action-button:focus, .svc-action-button:hover {
+  background-color: var(--ctr-survey-action-button-background-color-hovered-positive, var(--sjs-primary-backcolor-light, var(--primary-light, rgba(25, 179, 148, 0.1))));
+  outline: none;
+}
+
+.svc-action-button--selected {
+  border-color: var(--ctr-survey-action-button-text-color-positive, var(--sjs-primary-backcolor, var(--primary, #19b394)));
+}
+
+.svc-action-button--disabled {
+  opacity: var(--ctr-survey-action-button-opacity-disabled, 0.25);
+  color: var(--ctr-survey-action-button-text-color-disabled, var(--sjs-general-forecolor, var(--foreground, #161616)));
+}

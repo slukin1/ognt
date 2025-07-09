@@ -1,0 +1,954 @@
+[
+  {
+    "value": "AC",
+    "label": "о-в Вознесения"
+  },
+  {
+    "value": "AD",
+    "label": "Андорра"
+  },
+  {
+    "value": "AE",
+    "label": "ОАЭ"
+  },
+  {
+    "value": "AF",
+    "label": "Афганистан"
+  },
+  {
+    "value": "AG",
+    "label": "Антигуа и Барбуда"
+  },
+  {
+    "value": "AI",
+    "label": "Ангилья"
+  },
+  {
+    "value": "AL",
+    "label": "Албания"
+  },
+  {
+    "value": "AM",
+    "label": "Армения"
+  },
+  {
+    "value": "AO",
+    "label": "Ангола"
+  },
+  {
+    "value": "AQ",
+    "label": "Антарктида"
+  },
+  {
+    "value": "AR",
+    "label": "Аргентина"
+  },
+  {
+    "value": "AT",
+    "label": "Австрия"
+  },
+  {
+    "value": "AU",
+    "label": "Австралия"
+  },
+  {
+    "value": "AW",
+    "label": "Аруба"
+  },
+  {
+    "value": "AX",
+    "label": "Аландские о-ва"
+  },
+  {
+    "value": "AZ",
+    "label": "Азербайджан"
+  },
+  {
+    "value": "BA",
+    "label": "Босния и Герцеговина"
+  },
+  {
+    "value": "BB",
+    "label": "Барбадос"
+  },
+  {
+    "value": "BD",
+    "label": "Бангладеш"
+  },
+  {
+    "value": "BE",
+    "label": "Бельгия"
+  },
+  {
+    "value": "BF",
+    "label": "Буркина-Фасо"
+  },
+  {
+    "value": "BG",
+    "label": "Болгария"
+  },
+  {
+    "value": "BH",
+    "label": "Бахрейн"
+  },
+  {
+    "value": "BI",
+    "label": "Бурунди"
+  },
+  {
+    "value": "BJ",
+    "label": "Бенин"
+  },
+  {
+    "value": "BL",
+    "label": "Сен-Бартелеми"
+  },
+  {
+    "value": "BM",
+    "label": "Бермудские о-ва"
+  },
+  {
+    "value": "BN",
+    "label": "Бруней"
+  },
+  {
+    "value": "BO",
+    "label": "Боливия"
+  },
+  {
+    "value": "BQ",
+    "label": "Бонэйр, Синт-Эстатиус и Саба"
+  },
+  {
+    "value": "BR",
+    "label": "Бразилия"
+  },
+  {
+    "value": "BS",
+    "label": "Багамы"
+  },
+  {
+    "value": "BT",
+    "label": "Бутан"
+  },
+  {
+    "value": "BV",
+    "label": "о-в Буве"
+  },
+  {
+    "value": "BW",
+    "label": "Ботсвана"
+  },
+  {
+    "value": "BY",
+    "label": "Беларусь"
+  },
+  {
+    "value": "BZ",
+    "label": "Белиз"
+  },
+  {
+    "value": "CA",
+    "label": "Канада"
+  },
+  {
+    "value": "CD",
+    "label": "Конго - Киншаса"
+  },
+  {
+    "value": "CF",
+    "label": "Центрально-Африканская Республика"
+  },
+  {
+    "value": "CG",
+    "label": "Конго - Браззавиль"
+  },
+  {
+    "value": "CH",
+    "label": "Швейцария"
+  },
+  {
+    "value": "CI",
+    "label": "Кот-д’Ивуар"
+  },
+  {
+    "value": "CK",
+    "label": "о-ва Кука"
+  },
+  {
+    "value": "CL",
+    "label": "Чили"
+  },
+  {
+    "value": "CM",
+    "label": "Камерун"
+  },
+  {
+    "value": "CN",
+    "label": "Китай"
+  },
+  {
+    "value": "CO",
+    "label": "Колумбия"
+  },
+  {
+    "value": "CR",
+    "label": "Коста-Рика"
+  },
+  {
+    "value": "CV",
+    "label": "Кабо-Верде"
+  },
+  {
+    "value": "CW",
+    "label": "Кюрасао"
+  },
+  {
+    "value": "CY",
+    "label": "Кипр"
+  },
+  {
+    "value": "CZ",
+    "label": "Чехия"
+  },
+  {
+    "value": "DE",
+    "label": "Германия"
+  },
+  {
+    "value": "DJ",
+    "label": "Джибути"
+  },
+  {
+    "value": "DK",
+    "label": "Дания"
+  },
+  {
+    "value": "DM",
+    "label": "Доминика"
+  },
+  {
+    "value": "DO",
+    "label": "Доминиканская Республика"
+  },
+  {
+    "value": "DZ",
+    "label": "Алжир"
+  },
+  {
+    "value": "EC",
+    "label": "Эквадор"
+  },
+  {
+    "value": "EE",
+    "label": "Эстония"
+  },
+  {
+    "value": "EG",
+    "label": "Египет"
+  },
+  {
+    "value": "EH",
+    "label": "Западная Сахара"
+  },
+  {
+    "value": "ER",
+    "label": "Эритрея"
+  },
+  {
+    "value": "ES",
+    "label": "Испания"
+  },
+  {
+    "value": "ET",
+    "label": "Эфиопия"
+  },
+  {
+    "value": "FI",
+    "label": "Финляндия"
+  },
+  {
+    "value": "FJ",
+    "label": "Фиджи"
+  },
+  {
+    "value": "FK",
+    "label": "Фолклендские о-ва"
+  },
+  {
+    "value": "FO",
+    "label": "Фарерские о-ва"
+  },
+  {
+    "value": "FR",
+    "label": "Франция"
+  },
+  {
+    "value": "GA",
+    "label": "Габон"
+  },
+  {
+    "value": "GB",
+    "label": "Великобритания"
+  },
+  {
+    "value": "GD",
+    "label": "Гренада"
+  },
+  {
+    "value": "GE",
+    "label": "Грузия"
+  },
+  {
+    "value": "GF",
+    "label": "Французская Гвиана"
+  },
+  {
+    "value": "GG",
+    "label": "Гернси"
+  },
+  {
+    "value": "GH",
+    "label": "Гана"
+  },
+  {
+    "value": "GI",
+    "label": "Гибралтар"
+  },
+  {
+    "value": "GL",
+    "label": "Гренландия"
+  },
+  {
+    "value": "GM",
+    "label": "Гамбия"
+  },
+  {
+    "value": "GN",
+    "label": "Гвинея"
+  },
+  {
+    "value": "GP",
+    "label": "Гваделупа"
+  },
+  {
+    "value": "GQ",
+    "label": "Экваториальная Гвинея"
+  },
+  {
+    "value": "GR",
+    "label": "Греция"
+  },
+  {
+    "value": "GS",
+    "label": "Южная Георгия и Южные Сандвичевы о-ва"
+  },
+  {
+    "value": "GT",
+    "label": "Гватемала"
+  },
+  {
+    "value": "GU",
+    "label": "Гуам"
+  },
+  {
+    "value": "GW",
+    "label": "Гвинея-Бисау"
+  },
+  {
+    "value": "GY",
+    "label": "Гайана"
+  },
+  {
+    "value": "HK",
+    "label": "Гонконг (САР)"
+  },
+  {
+    "value": "HN",
+    "label": "Гондурас"
+  },
+  {
+    "value": "HR",
+    "label": "Хорватия"
+  },
+  {
+    "value": "HT",
+    "label": "Гаити"
+  },
+  {
+    "value": "HU",
+    "label": "Венгрия"
+  },
+  {
+    "value": "ID",
+    "label": "Индонезия"
+  },
+  {
+    "value": "IE",
+    "label": "Ирландия"
+  },
+  {
+    "value": "IL",
+    "label": "Израиль"
+  },
+  {
+    "value": "IM",
+    "label": "о-в Мэн"
+  },
+  {
+    "value": "IN",
+    "label": "Индия"
+  },
+  {
+    "value": "IO",
+    "label": "Британская территория в Индийском океане"
+  },
+  {
+    "value": "IQ",
+    "label": "Ирак"
+  },
+  {
+    "value": "IS",
+    "label": "Исландия"
+  },
+  {
+    "value": "IT",
+    "label": "Италия"
+  },
+  {
+    "value": "JE",
+    "label": "Джерси"
+  },
+  {
+    "value": "JM",
+    "label": "Ямайка"
+  },
+  {
+    "value": "JO",
+    "label": "Иордания"
+  },
+  {
+    "value": "JP",
+    "label": "Япония"
+  },
+  {
+    "value": "KE",
+    "label": "Кения"
+  },
+  {
+    "value": "KG",
+    "label": "Киргизия"
+  },
+  {
+    "value": "KH",
+    "label": "Камбоджа"
+  },
+  {
+    "value": "KI",
+    "label": "Кирибати"
+  },
+  {
+    "value": "KM",
+    "label": "Коморы"
+  },
+  {
+    "value": "KN",
+    "label": "Сент-Китс и Невис"
+  },
+  {
+    "value": "KR",
+    "label": "Республика Корея"
+  },
+  {
+    "value": "KW",
+    "label": "Кувейт"
+  },
+  {
+    "value": "KY",
+    "label": "о-ва Кайман"
+  },
+  {
+    "value": "KZ",
+    "label": "Казахстан"
+  },
+  {
+    "value": "LA",
+    "label": "Лаос"
+  },
+  {
+    "value": "LB",
+    "label": "Ливан"
+  },
+  {
+    "value": "LC",
+    "label": "Сент-Люсия"
+  },
+  {
+    "value": "LI",
+    "label": "Лихтенштейн"
+  },
+  {
+    "value": "LK",
+    "label": "Шри-Ланка"
+  },
+  {
+    "value": "LR",
+    "label": "Либерия"
+  },
+  {
+    "value": "LS",
+    "label": "Лесото"
+  },
+  {
+    "value": "LT",
+    "label": "Литва"
+  },
+  {
+    "value": "LU",
+    "label": "Люксембург"
+  },
+  {
+    "value": "LV",
+    "label": "Латвия"
+  },
+  {
+    "value": "LY",
+    "label": "Ливия"
+  },
+  {
+    "value": "MA",
+    "label": "Марокко"
+  },
+  {
+    "value": "MC",
+    "label": "Монако"
+  },
+  {
+    "value": "MD",
+    "label": "Молдова"
+  },
+  {
+    "value": "ME",
+    "label": "Черногория"
+  },
+  {
+    "value": "MF",
+    "label": "Сен-Мартен"
+  },
+  {
+    "value": "MG",
+    "label": "Мадагаскар"
+  },
+  {
+    "value": "MK",
+    "label": "Северная Македония"
+  },
+  {
+    "value": "ML",
+    "label": "Мали"
+  },
+  {
+    "value": "MM",
+    "label": "Мьянма (Бирма)"
+  },
+  {
+    "value": "MN",
+    "label": "Монголия"
+  },
+  {
+    "value": "MO",
+    "label": "Макао (САР)"
+  },
+  {
+    "value": "MQ",
+    "label": "Мартиника"
+  },
+  {
+    "value": "MR",
+    "label": "Мавритания"
+  },
+  {
+    "value": "MS",
+    "label": "Монтсеррат"
+  },
+  {
+    "value": "MT",
+    "label": "Мальта"
+  },
+  {
+    "value": "MU",
+    "label": "Маврикий"
+  },
+  {
+    "value": "MV",
+    "label": "Мальдивы"
+  },
+  {
+    "value": "MW",
+    "label": "Малави"
+  },
+  {
+    "value": "MX",
+    "label": "Мексика"
+  },
+  {
+    "value": "MY",
+    "label": "Малайзия"
+  },
+  {
+    "value": "MZ",
+    "label": "Мозамбик"
+  },
+  {
+    "value": "NA",
+    "label": "Намибия"
+  },
+  {
+    "value": "NC",
+    "label": "Новая Каледония"
+  },
+  {
+    "value": "NE",
+    "label": "Нигер"
+  },
+  {
+    "value": "NG",
+    "label": "Нигерия"
+  },
+  {
+    "value": "NI",
+    "label": "Никарагуа"
+  },
+  {
+    "value": "NL",
+    "label": "Нидерланды"
+  },
+  {
+    "value": "NO",
+    "label": "Норвегия"
+  },
+  {
+    "value": "NP",
+    "label": "Непал"
+  },
+  {
+    "value": "NR",
+    "label": "Науру"
+  },
+  {
+    "value": "NU",
+    "label": "Ниуэ"
+  },
+  {
+    "value": "NZ",
+    "label": "Новая Зеландия"
+  },
+  {
+    "value": "OM",
+    "label": "Оман"
+  },
+  {
+    "value": "PA",
+    "label": "Панама"
+  },
+  {
+    "value": "PE",
+    "label": "Перу"
+  },
+  {
+    "value": "PF",
+    "label": "Французская Полинезия"
+  },
+  {
+    "value": "PG",
+    "label": "Папуа — Новая Гвинея"
+  },
+  {
+    "value": "PH",
+    "label": "Филиппины"
+  },
+  {
+    "value": "PK",
+    "label": "Пакистан"
+  },
+  {
+    "value": "PL",
+    "label": "Польша"
+  },
+  {
+    "value": "PM",
+    "label": "Сен-Пьер и Микелон"
+  },
+  {
+    "value": "PN",
+    "label": "о-ва Питкэрн"
+  },
+  {
+    "value": "PR",
+    "label": "Пуэрто-Рико"
+  },
+  {
+    "value": "PS",
+    "label": "Палестинские территории"
+  },
+  {
+    "value": "PT",
+    "label": "Португалия"
+  },
+  {
+    "value": "PY",
+    "label": "Парагвай"
+  },
+  {
+    "value": "QA",
+    "label": "Катар"
+  },
+  {
+    "value": "RE",
+    "label": "Реюньон"
+  },
+  {
+    "value": "RO",
+    "label": "Румыния"
+  },
+  {
+    "value": "RS",
+    "label": "Сербия"
+  },
+  {
+    "value": "RU",
+    "label": "Россия"
+  },
+  {
+    "value": "RW",
+    "label": "Руанда"
+  },
+  {
+    "value": "SA",
+    "label": "Саудовская Аравия"
+  },
+  {
+    "value": "SB",
+    "label": "Соломоновы о-ва"
+  },
+  {
+    "value": "SC",
+    "label": "Сейшельские о-ва"
+  },
+  {
+    "value": "SD",
+    "label": "Судан"
+  },
+  {
+    "value": "SE",
+    "label": "Швеция"
+  },
+  {
+    "value": "SG",
+    "label": "Сингапур"
+  },
+  {
+    "value": "SH",
+    "label": "о-в Св. Елены"
+  },
+  {
+    "value": "SI",
+    "label": "Словения"
+  },
+  {
+    "value": "SJ",
+    "label": "Шпицберген и Ян-Майен"
+  },
+  {
+    "value": "SK",
+    "label": "Словакия"
+  },
+  {
+    "value": "SL",
+    "label": "Сьерра-Леоне"
+  },
+  {
+    "value": "SM",
+    "label": "Сан-Марино"
+  },
+  {
+    "value": "SN",
+    "label": "Сенегал"
+  },
+  {
+    "value": "SO",
+    "label": "Сомали"
+  },
+  {
+    "value": "SR",
+    "label": "Суринам"
+  },
+  {
+    "value": "SS",
+    "label": "Южный Судан"
+  },
+  {
+    "value": "ST",
+    "label": "Сан-Томе и Принсипи"
+  },
+  {
+    "value": "SV",
+    "label": "Сальвадор"
+  },
+  {
+    "value": "SX",
+    "label": "Синт-Мартен"
+  },
+  {
+    "value": "SZ",
+    "label": "Эсватини"
+  },
+  {
+    "value": "TA",
+    "label": "Тристан-да-Кунья"
+  },
+  {
+    "value": "TC",
+    "label": "Тёркс и Кайкос"
+  },
+  {
+    "value": "TD",
+    "label": "Чад"
+  },
+  {
+    "value": "TF",
+    "label": "Французские Южные территории"
+  },
+  {
+    "value": "TG",
+    "label": "Того"
+  },
+  {
+    "value": "TH",
+    "label": "Таиланд"
+  },
+  {
+    "value": "TJ",
+    "label": "Таджикистан"
+  },
+  {
+    "value": "TK",
+    "label": "Токелау"
+  },
+  {
+    "value": "TL",
+    "label": "Восточный Тимор"
+  },
+  {
+    "value": "TM",
+    "label": "Туркменистан"
+  },
+  {
+    "value": "TN",
+    "label": "Тунис"
+  },
+  {
+    "value": "TO",
+    "label": "Тонга"
+  },
+  {
+    "value": "TR",
+    "label": "Турция"
+  },
+  {
+    "value": "TT",
+    "label": "Тринидад и Тобаго"
+  },
+  {
+    "value": "TV",
+    "label": "Тувалу"
+  },
+  {
+    "value": "TW",
+    "label": "Тайвань"
+  },
+  {
+    "value": "TZ",
+    "label": "Танзания"
+  },
+  {
+    "value": "UA",
+    "label": "Украина"
+  },
+  {
+    "value": "UG",
+    "label": "Уганда"
+  },
+  {
+    "value": "US",
+    "label": "Соединенные Штаты"
+  },
+  {
+    "value": "UY",
+    "label": "Уругвай"
+  },
+  {
+    "value": "UZ",
+    "label": "Узбекистан"
+  },
+  {
+    "value": "VA",
+    "label": "Ватикан"
+  },
+  {
+    "value": "VC",
+    "label": "Сент-Винсент и Гренадины"
+  },
+  {
+    "value": "VE",
+    "label": "Венесуэла"
+  },
+  {
+    "value": "VG",
+    "label": "Виргинские о-ва (Великобритания)"
+  },
+  {
+    "value": "VN",
+    "label": "Вьетнам"
+  },
+  {
+    "value": "VU",
+    "label": "Вануату"
+  },
+  {
+    "value": "WF",
+    "label": "Уоллис и Футуна"
+  },
+  {
+    "value": "WS",
+    "label": "Самоа"
+  },
+  {
+    "value": "XK",
+    "label": "Косово"
+  },
+  {
+    "value": "YE",
+    "label": "Йемен"
+  },
+  {
+    "value": "YT",
+    "label": "Майотта"
+  },
+  {
+    "value": "ZA",
+    "label": "Южно-Африканская Республика"
+  },
+  {
+    "value": "ZM",
+    "label": "Замбия"
+  },
+  {
+    "value": "ZW",
+    "label": "Зимбабве"
+  },
+  {
+    "value": "ZZ",
+    "label": "неизвестный регион"
+  }
+]

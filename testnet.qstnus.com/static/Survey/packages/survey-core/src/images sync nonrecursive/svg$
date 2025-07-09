@@ -1,0 +1,73 @@
+var map = {
+	"./ArrowDown_34x34.svg": "./packages/survey-core/src/images/ArrowDown_34x34.svg",
+	"./ArrowLeft.svg": "./packages/survey-core/src/images/ArrowLeft.svg",
+	"./ArrowRight.svg": "./packages/survey-core/src/images/ArrowRight.svg",
+	"./Arrow_downGREY_10x10.svg": "./packages/survey-core/src/images/Arrow_downGREY_10x10.svg",
+	"./ChangeCamera.svg": "./packages/survey-core/src/images/ChangeCamera.svg",
+	"./ChooseFile.svg": "./packages/survey-core/src/images/ChooseFile.svg",
+	"./Clear.svg": "./packages/survey-core/src/images/Clear.svg",
+	"./CloseCamera.svg": "./packages/survey-core/src/images/CloseCamera.svg",
+	"./DefaultFile.svg": "./packages/survey-core/src/images/DefaultFile.svg",
+	"./Delete.svg": "./packages/survey-core/src/images/Delete.svg",
+	"./Down_34x34.svg": "./packages/survey-core/src/images/Down_34x34.svg",
+	"./Left.svg": "./packages/survey-core/src/images/Left.svg",
+	"./ModernBooleanCheckChecked.svg": "./packages/survey-core/src/images/ModernBooleanCheckChecked.svg",
+	"./ModernBooleanCheckInd.svg": "./packages/survey-core/src/images/ModernBooleanCheckInd.svg",
+	"./ModernBooleanCheckUnchecked.svg": "./packages/survey-core/src/images/ModernBooleanCheckUnchecked.svg",
+	"./ModernCheck.svg": "./packages/survey-core/src/images/ModernCheck.svg",
+	"./ModernRadio.svg": "./packages/survey-core/src/images/ModernRadio.svg",
+	"./More.svg": "./packages/survey-core/src/images/More.svg",
+	"./NavMenu_24x24.svg": "./packages/survey-core/src/images/NavMenu_24x24.svg",
+	"./ProgressButton.svg": "./packages/survey-core/src/images/ProgressButton.svg",
+	"./ProgressButtonV2.svg": "./packages/survey-core/src/images/ProgressButtonV2.svg",
+	"./RemoveFile.svg": "./packages/survey-core/src/images/RemoveFile.svg",
+	"./Right.svg": "./packages/survey-core/src/images/Right.svg",
+	"./SearchClear.svg": "./packages/survey-core/src/images/SearchClear.svg",
+	"./ShowCamera.svg": "./packages/survey-core/src/images/ShowCamera.svg",
+	"./TakePicture.svg": "./packages/survey-core/src/images/TakePicture.svg",
+	"./TakePicture_24x24.svg": "./packages/survey-core/src/images/TakePicture_24x24.svg",
+	"./TimerCircle.svg": "./packages/survey-core/src/images/TimerCircle.svg",
+	"./V2Check.svg": "./packages/survey-core/src/images/V2Check.svg",
+	"./V2Check_24x24.svg": "./packages/survey-core/src/images/V2Check_24x24.svg",
+	"./V2DragElement_16x16.svg": "./packages/survey-core/src/images/V2DragElement_16x16.svg",
+	"./back-to-panel_16x16.svg": "./packages/survey-core/src/images/back-to-panel_16x16.svg",
+	"./chevron.svg": "./packages/survey-core/src/images/chevron.svg",
+	"./clear_16x16.svg": "./packages/survey-core/src/images/clear_16x16.svg",
+	"./close_16x16.svg": "./packages/survey-core/src/images/close_16x16.svg",
+	"./collapseDetail.svg": "./packages/survey-core/src/images/collapseDetail.svg",
+	"./drag-n-drop.svg": "./packages/survey-core/src/images/drag-n-drop.svg",
+	"./expandDetail.svg": "./packages/survey-core/src/images/expandDetail.svg",
+	"./full-screen_16x16.svg": "./packages/survey-core/src/images/full-screen_16x16.svg",
+	"./loading.svg": "./packages/survey-core/src/images/loading.svg",
+	"./minimize_16x16.svg": "./packages/survey-core/src/images/minimize_16x16.svg",
+	"./next_16x16.svg": "./packages/survey-core/src/images/next_16x16.svg",
+	"./no-image.svg": "./packages/survey-core/src/images/no-image.svg",
+	"./ranking-arrows.svg": "./packages/survey-core/src/images/ranking-arrows.svg",
+	"./ranking-dash.svg": "./packages/survey-core/src/images/ranking-dash.svg",
+	"./rating-star-2.svg": "./packages/survey-core/src/images/rating-star-2.svg",
+	"./rating-star-small-2.svg": "./packages/survey-core/src/images/rating-star-small-2.svg",
+	"./rating-star-small.svg": "./packages/survey-core/src/images/rating-star-small.svg",
+	"./rating-star.svg": "./packages/survey-core/src/images/rating-star.svg",
+	"./restore_16x16.svg": "./packages/survey-core/src/images/restore_16x16.svg",
+	"./search.svg": "./packages/survey-core/src/images/search.svg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./packages/survey-core/src/images sync \\.svg$";

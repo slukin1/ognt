@@ -1,0 +1,19 @@
+.empty {
+  padding: 96px 32px;
+  border-radius: 16px;
+  margin: 24px 0;
+  border: 1px solid;
+  text-align: center;
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    margin-top: 24px;
+    margin-bottom: 4px;
+  }
+  small {
+    color: #a1a1aa;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

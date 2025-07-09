@@ -1,0 +1,26 @@
+.adminTabHeader {
+  .adminTabNav {
+    display: inline-flex;
+    gap: 2px;
+    padding: 3px;
+    border-radius: 10000px;
+    background: #1f1f22;
+    list-style: none;
+    color: "#A1A1AA";
+
+    li {
+      padding: 6px 12px;
+      border-radius: 10000px;
+      cursor: pointer;
+      color: "#A1A1AA";
+      font-size: 12px;
+    }
+  }
+  .adminTabNavActive {
+    background-color: #27272a;
+    box-shadow:
+      0px 1px 2px 0px rgba(16, 24, 40, 0.06),
+      0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+    font-weight: 500;
+  }
+}

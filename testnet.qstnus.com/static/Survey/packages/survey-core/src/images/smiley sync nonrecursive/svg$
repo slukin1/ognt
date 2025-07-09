@@ -1,0 +1,32 @@
+var map = {
+	"./average.svg": "./packages/survey-core/src/images/smiley/average.svg",
+	"./excellent.svg": "./packages/survey-core/src/images/smiley/excellent.svg",
+	"./good.svg": "./packages/survey-core/src/images/smiley/good.svg",
+	"./normal.svg": "./packages/survey-core/src/images/smiley/normal.svg",
+	"./not-good.svg": "./packages/survey-core/src/images/smiley/not-good.svg",
+	"./perfect.svg": "./packages/survey-core/src/images/smiley/perfect.svg",
+	"./poor.svg": "./packages/survey-core/src/images/smiley/poor.svg",
+	"./terrible.svg": "./packages/survey-core/src/images/smiley/terrible.svg",
+	"./very-good.svg": "./packages/survey-core/src/images/smiley/very-good.svg",
+	"./very-poor.svg": "./packages/survey-core/src/images/smiley/very-poor.svg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./packages/survey-core/src/images/smiley sync \\.svg$";

@@ -1,0 +1,1 @@
+module.exports = "<svg viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 9H4V7H12V9ZM16 0V16H0V0H16ZM14 2H2V14H14V2Z\"></path></svg>"
