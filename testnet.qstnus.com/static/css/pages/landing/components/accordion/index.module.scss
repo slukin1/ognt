@@ -1,0 +1,102 @@
+.AccordionRoot_ {
+  border-radius: 6px;
+  // box-shadow: 0 2px 10px var(--black-a4);
+  width: 800px;
+  margin: 48px auto 0 auto;
+
+  h5 {
+    text-transform: capitalize;
+  }
+}
+
+.AccordionItem_ {
+  overflow: hidden;
+  margin-top: 1px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+}
+
+.AccordionItem_:focus-within {
+  position: relative;
+  z-index: 1;
+}
+
+.AccordionHeader_ {
+  display: flex !important;
+}
+
+.AccordionHeader_ :global {
+  button,
+  h3 {
+    all: unset;
+  }
+}
+.AccordionTrigger_ {
+  font-family: inherit !important;
+  padding: 16px !important;
+  // height: 45px !important;
+  flex: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  font-size: 15px !important;
+  line-height: 1 !important;
+  box-shadow: 0 1px 0 var(--mauve-6) !important;
+}
+
+.AccordionTrigger_:hover {
+  background-color: var(--mauve-6);
+}
+
+.AccordionContent_ {
+  overflow: hidden;
+  font-size: 15px;
+  background-color: var(--mauve-2);
+}
+.AccordionContent_[data-state="open"] {
+  animation: slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  outline: none;
+}
+.AccordionContent_[data-state="closed"] {
+  animation: slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  outline: none;
+}
+
+.AccordionContent_Text {
+  padding: 15px 20px;
+}
+
+.AccordionChevron_ {
+  color: var(--violet-10);
+  transition: transform 300ms cubic-bezier(0.87, 0, 0.13, 1);
+}
+.AccordionTrigger_[data-state="closed"] .AccordionChevron_ {
+  transform: rotate(180deg);
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .AccordionRoot_ {
+    width: 100%;
+    h2 {
+      font-size: 19px;
+    }
+  }
+}
